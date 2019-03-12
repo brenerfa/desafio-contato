@@ -87,7 +87,9 @@ paths:
         type: integer
   /:
     get:
-      description: 'Retorna uma lista de registros de acordo com o informado nos parâmetros page e size. Se estes parâmetros não forem passados na consulta, os seguintes valores padrão serão utilizados: page = 0 e size = 10'
+      description: 'Retorna uma lista de registros de acordo com o informado nos parâmetros
+        page e size. Se estes parâmetros não forem passados na consulta, os seguintes
+        valores padrão serão utilizados: page = 0 e size = 10'
       parameters:
       - name: size
         in: query
